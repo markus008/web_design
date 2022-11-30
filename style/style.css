@@ -9,9 +9,13 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
+
+
+/*HEADER*/
 h1{
   font-family: 'Work Sans', sans-serif;
 }
+
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -81,7 +85,6 @@ nav a::before {
   position: absolute;
   top: 0;
   width: 0%;
-
   transition: all ease-in-out 250ms;
 }
 
@@ -98,6 +101,22 @@ main .flex-container {
   flex:1;
 }
  
+/*Header mobile*/
+
+@media (max-width: 400) {
+  
+  nav li {
+    display:flex;
+    margin-left: 70px;
+    position: relative;
+  }  
+  .logo{
+    display: flex;
+  }
+  
+}
+
+/*Middle*/
 .content {
   max: width 100%;
   margin: 0;
@@ -209,8 +228,7 @@ main .contact p {
 
 
 
-
-
+/*Footer*/
 ul {
     list-style: none;
     padding-left: 0;
