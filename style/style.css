@@ -85,8 +85,15 @@ main {
   background-color: aqua;
 }
 main div {
-  margin-left: 500px;
+  margin-left: 30%;
   padding-top: 23px;
+}
+
+main flex-container {
+  padding:20%;
+  border: 1px;
+  flex:1;
+
 }
  
 
