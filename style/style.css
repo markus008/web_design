@@ -150,6 +150,7 @@ main .image {
   flex-wrap: wrap;
   column-gap: 10px;
 
+
   /* background-color:#ffffff;
   border-radius: 50%; 
   color: black;
@@ -210,7 +211,7 @@ main .contact p {
 }*/
 
 @media only screen and (max-width: 500px) {
-  img {
+  .image {
      display: none;
   }
 }
