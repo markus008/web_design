@@ -90,7 +90,7 @@ main {
 }
 
 main .flex-container {
-  margin-left: 30%;
+  margin-left: 3%;
   padding-top: 5%;
   flex:1;
 }
@@ -98,7 +98,7 @@ main .flex-container {
 .content {
   max: width 100%;
   margin: 0;
-  padding: 0% 15% 25% 15%;
+  padding: 0% 15% 5% 15%;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -120,7 +120,11 @@ main h2 {
   padding: 5%, 10%;
 }
 
-main p {
+main .flex-container p {
+  padding: 2%;
+}
+
+main .box p {
   padding: 5%;
 }
 
@@ -128,6 +132,30 @@ main h3 {
   padding: 5%;
 
 }
+
+main flex-contact {
+  display: flex ;
+}
+
+main .contact {
+  padding: 4% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ul {
@@ -171,3 +199,4 @@ footer a:hover {
       justify-content: space-evenly;
   }
 }
+
