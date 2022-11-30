@@ -190,6 +190,11 @@ main .contact p {
   background-color: rgb(28, 192, 192);
 }*/
 
+@media only screen and (max-width: 500px) {
+  img {
+     display: none;
+  }
+}
 
 
 
