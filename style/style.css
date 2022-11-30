@@ -5,7 +5,9 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
-
+h1{
+  font-family: 'Work Sans', sans-serif;
+}
 .container {
 	width: 80%;
 	margin: 0 auto;
@@ -24,6 +26,14 @@ header::after {
 .logo {
   float: left;
   padding: 10px 0;
+  height: 40px;
+  width: 30px;
+}
+.logoText {
+  float: left;
+  padding: 10px 0;
+  font-size: 15px;
+  padding-left: 10px;
 }
 
 nav {
