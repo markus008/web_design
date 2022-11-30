@@ -71,7 +71,13 @@ nav a::before {
 nav a:hover::before {
   width: 100%;
 }
-
-h2 {
-  
+main {
+  background-color: aqua;
 }
+main div {
+  margin-left: 500px;
+  padding-top: 23px;
+}
+ 
+
+
