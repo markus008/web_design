@@ -105,6 +105,8 @@ main .flex-container {
   display: flex;
   justify-content: space-between;
   height: 100%;
+
+  flex-flow: wrap;
 }
 
 main h2 {
@@ -118,15 +120,18 @@ main .image {
   padding-top: 10%;
 }
 
-.box {
+.box { 
   width: 200px;
   height: 200px;  
-  border-radius: 100px;
+  border-radius: 100%;
   background: rgb(255, 255, 255);
   border-color: rgb(75, 150, 171);
   border-style: solid;
+  position: relative;
+  flex-wrap: wrap;
+  column-gap: 10px;
 
- /* background-color:#ffffff;
+  /* background-color:#ffffff;
   border-radius: 50%; 
   color: black;
   margin: 5% 5%;
@@ -136,6 +141,18 @@ main .image {
   display: inline;
   box-shadow: 0 3px 5px rgba(0,0,0,0.6); */
 
+}
+
+@media screen and (max-width: 200px){
+  .box{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 200px){
+  .box{
+    width: 90%;
+  }
 }
 
 main .flex-container p {
