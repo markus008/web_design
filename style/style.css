@@ -84,7 +84,7 @@ nav a::before {
 
   position: absolute;
   top: 0;
-  width: 0%;
+  width: 0;
   transition: all ease-in-out 250ms;
 }
 
@@ -118,7 +118,7 @@ main .flex-container {
 
 /*Middle*/
 .content {
-  max: width 100%;
+  max: width: 100%;
   margin: 0;
   padding: 5% 15% 10% 15%;
   display: flex;
@@ -311,11 +311,51 @@ footer a:hover {
 /* mapa */
 .mapa {
   width: 100%;
+  height: 500px;
   margin: 0 auto;
 }
 
 .mapa iframe {
   width: 100%;
-  height: 400px;
+  height: 100%;
   border: 0;
+}
+
+
+/* informace */
+
+.information {
+  width: 80%;
+  height: 800px;
+}
+
+.vlevo {
+  height: 100%;
+  width: 50%;
+  display: table;
+  float: left;
+  background-color: yellow;
+}
+.vpravo {
+  height: 100%;
+  width: 50%;
+  float: left;
+  display: table;
+  background-color: beige;
+
+}
+.center{
+  margin: 0 auto;
+  text-align: center;
+}
+.text{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0px;
+  text-align:justify
+}
+
+.clanek {
+  width: 100%;
+  height: 140px;
 }
