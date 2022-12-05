@@ -281,13 +281,11 @@ nav a:hover::before {
 
 /*Middle*/
 .content {
-  max-width: 100%;
   margin: 0;
   padding: 5% 15% 10% 15%;
   display: flex;
   justify-content: space-between;
   height: 100%;
-
   flex-flow: wrap;
 }
 
@@ -298,9 +296,7 @@ nav a:hover::before {
     
 }
 
-.main-mn .image {
- /* padding-top: 10%;*/
-}
+
 
 .box { 
   width: 200px;
@@ -311,7 +307,7 @@ nav a:hover::before {
   border-style: solid;
   flex-wrap: wrap;
   column-gap: 10px;
-
+  grid-column: auto;
 
   /* background-color:#ffffff;
   border-radius: 50%; 
@@ -324,6 +320,32 @@ nav a:hover::before {
   box-shadow: 0 3px 5px rgba(0,0,0,0.6); */
 
 }
+
+.boximg {
+  height: 10%;
+  width: 99%;
+  border-radius: 50%;
+}
+
+.main-mn .text p {
+}
+
+.boximg:hover {
+  color: rgb(72, 82, 82);
+}
+
+.main-hd .box::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+.box:hover{
+  color: rgb(72, 82, 82);
+  text-decoration: underline;
+}
+
 
 @media screen and (max-width: 200px){
   .box{
@@ -341,9 +363,7 @@ nav a:hover::before {
   padding: 2%;
 }
 
-.main-mn .box p {
-  padding: 5%;
-}
+
 
 .main-mn h3 {
   padding: 5%;
@@ -375,7 +395,7 @@ nav a:hover::before {
 @media only screen and (max-width: 700px) {
   img {
      display: none;
-     display: block;
+     display: block;  
   }
 }
 
@@ -393,7 +413,6 @@ img {
   height: 80vh;
   overflow: hidden;
 }
-
 
 
 
