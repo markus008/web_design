@@ -12,7 +12,7 @@ body {
 
 
 /*HEADER*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 870px) {
 h1{
   font-family: 'Work Sans', sans-serif;
 }
@@ -109,7 +109,7 @@ nav a:hover::before {
   display: block;
 }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 870px) {
   .navbar {
     display: block;
   }
@@ -423,13 +423,35 @@ img {
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
 }
+
+
 .ft-main {
   padding: 1% 1%;
   display: flex;
   flex-wrap: wrap;
 }
+
+
 .ft-main-item {
   min-width: 3% /*200px*/;
+}
+
+
+
+@media (max-width: 550px) {
+
+  .ft-main {
+    padding: 1% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;  
+    align-items: center;
+    TEXT-ALIGN: CENTER; 
+  }
+  .ft-legal-list{
+    justify-content: center;
+  }
+
 }
 @media only screen and (min-width: 29.8125rem /*477px*/) {
   .ft-main {
@@ -460,6 +482,7 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+@media (min-width: 351px) {
 .ft-legal-list li {
   margin: 0.125rem 0.625rem;
   white-space: nowrap;
@@ -468,9 +491,13 @@ img {
 .ft-legal-list li:nth-last-child(2) {
   flex: 1;       /* same as flex-grow: 1; */
 }
+}
+@media (max-width: 350px) {
 
-
-
+  .ft-legal-list li {
+    white-space: normal;
+}
+}
 /* mapa */
 .mapa {
   width: 100%;
