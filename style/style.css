@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 * {
-  font-family: 'Work Sans', sans-serif; 
+  font-family: 'Work Sans', sans-serif;
 }
 
 body {
@@ -101,7 +101,7 @@ nav a:hover::before {
   padding-top: 5%;
   flex:1;
 }
- 
+
 .navbar {
   display: none;
 }
@@ -266,26 +266,29 @@ nav a:hover::before {
 }
 /*Header mobile*/
 @media (max-width: 400px) {
-  
+
   nav li {
     display:flex;
     margin-left: 70px;
     position: relative;
-  }  
+  }
   .logo{
     display: flex;
   }
-  
+
 }
+
 
 
 /*Middle*/
 .content {
+  max-width: 100%;
   margin: 0;
   padding: 5% 15% 10% 15%;
   display: flex;
   justify-content: space-between;
   height: 100%;
+
   flex-flow: wrap;
 }
 
@@ -293,23 +296,26 @@ nav a:hover::before {
     font-size: 2.5rem;
     font-weight: bold;
     line-height: 1.2;
-    
+
 }
 
+.main-mn .image {
+ /* padding-top: 10%;*/
+}
 
 .box { 
   width: 200px;
-  height: 200px;  
+  height: 200px;
   border-radius: 100%;
   background: rgb(255, 255, 255);
   border-color: rgb(75, 150, 171);
   border-style: solid;
   flex-wrap: wrap;
   column-gap: 10px;
-  grid-column: auto;
+
 
   /* background-color:#ffffff;
-  border-radius: 50%; 
+  border-radius: 50%;
   color: black;
   margin: 5% 5%;
   width: 25%;
@@ -366,7 +372,9 @@ nav a:hover::before {
   padding: 2%;
 }
 
-
+.main-mn .box p {
+  padding: 5%;
+}
 
 .main-mn h3 {
   padding: 5%;
@@ -395,10 +403,9 @@ nav a:hover::before {
   background-color: rgb(28, 192, 192);
 }*/
 
-@media only screen and (max-width: 700px) {
-  img {
+@media only screen and (max-width: 500px) {
+  .image {
      display: none;
-     display: block;  
   }
 }
 
@@ -413,11 +420,15 @@ img {
 }
 
 .backimg {
-  height: 80vh;
+  height: 71vh;
   overflow: hidden;
 }
 
 
+@media only screen and (max-width:500px)
+{
+
+}
 
 
 
@@ -473,9 +484,9 @@ img {
     padding: 1% 1%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column-reverse;  
+    flex-direction: column-reverse;
     align-items: center;
-    TEXT-ALIGN: CENTER; 
+    TEXT-ALIGN: CENTER;
   }
   .ft-legal-list{
     justify-content: center;
@@ -496,7 +507,7 @@ img {
 .ft-social-list {
   display: flex;
   justify-content: center;
-  border-top: 1px rgb(134, 132, 132) solid; 
+  border-top: 1px rgb(134, 132, 132) solid;
 }
 .ft-social-list li {
   margin: 0.5rem;
@@ -545,33 +556,16 @@ img {
 
 .information {
   width: 80%;
-  min-height: 800px;
-}
-/*
-.clanky {
-  height: 100%;
-  width: 50%;
-  display: table;
-  float: left;
-  background-color: yellow;
+  min-height: 620px;
 }
 
-
-  .clanky {
-    height: 100%;
-    width: 50%;
-    float: left;
-    display: table;
-    background-color: beige;
-  }
-}
-*/
 .clanky {
   height: 100%;
   width: 100%;
   float: none;
   display: table;
   background-color: beige;
+  padding-top: 1rem;
 }
 @media (min-width: 768px) {
    .clanky{
@@ -579,25 +573,35 @@ img {
     width: 50%;
   }
 }
-
+.clanky ul {
+  padding-left: 0;
+}
 .clanky ul, li {
   list-style: none;
 }
 .clanky header {
   width: 100%;
-  height: 30px;
+  min-height: 48px;
+}
+.clanky h3 {
+  padding: 1rem;
+  margin: 0;
 }
 
-
+.date {
+  text-align: right;
+  width: 98%;
+}
 .center{
   margin: 0 auto;
   text-align: center;
 }
-.text{
+.main-clanky {
   padding-left: 1rem;
   padding-right: 1rem;
   margin-top: 0px;
-  text-align:justify
+  text-align:justify;
+  font-weight: normal;
 }
 
 .clanek {
