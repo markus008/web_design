@@ -22,14 +22,14 @@ h1{
 	margin: 0 auto;
 }
 
-header {
+.main-hd {
   background: white;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-header::after {
+.main-hd header::after {
   content: '';
   display: table;
   clear: both;
@@ -282,7 +282,7 @@ main .flex-container {
 
 /*Middle*/
 .content {
-  max: width: 100%;
+  max-width: 100%;
   margin: 0;
   padding: 5% 15% 10% 15%;
   display: flex;
@@ -398,20 +398,20 @@ main .box p {
 
 
 /*Footer*/
-ul {
+.ft ul {
     list-style: none;
     padding-left: 0;
 }
-footer {
+.ft {
     background-color: #555;
     color: #bbb;
     line-height: 1.5;
 }
-footer a {
+.ft a {
     text-decoration: none;
     color: #eee;
 }
-footer a:hover {
+.ft a:hover {
     text-decoration: underline;
 }
 .ft-title {
@@ -485,24 +485,50 @@ footer a:hover {
 
 .information {
   width: 80%;
-  height: 800px;
+  min-height: 800px;
 }
-
-.vlevo {
+/*
+.clanky {
   height: 100%;
   width: 50%;
   display: table;
   float: left;
   background-color: yellow;
 }
-.vpravo {
+
+
+  .clanky {
+    height: 100%;
+    width: 50%;
+    float: left;
+    display: table;
+    background-color: beige;
+  }
+}
+*/
+.clanky {
   height: 100%;
-  width: 50%;
-  float: left;
+  width: 100%;
+  float: none;
   display: table;
   background-color: beige;
-
 }
+@media (min-width: 768px) {
+   .clanky{
+    float: left;
+    width: 50%;
+  }
+}
+
+.clanky ul, li {
+  list-style: none;
+}
+.clanky header {
+  width: 100%;
+  height: 30px;
+}
+
+
 .center{
   margin: 0 auto;
   text-align: center;
@@ -518,3 +544,4 @@ footer a:hover {
   width: 100%;
   height: 140px;
 }
+
