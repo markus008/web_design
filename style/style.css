@@ -297,7 +297,6 @@ nav a:hover::before {
 }
 
 
-
 .box { 
   width: 200px;
   height: 200px;  
@@ -322,24 +321,28 @@ nav a:hover::before {
 }
 
 .boximg {
-  height: 10%;
-  width: 99%;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
-}
-
-.main-mn .text p {
+  overflow: hidden;
 }
 
 .boximg:hover {
   color: rgb(72, 82, 82);
+  background-color: rgb(154, 208, 208);
 }
 
-.main-hd .box::after {
-  content: '';
-  display: table;
-  clear: both;
+.main-mn .context {
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  position: static;
 }
 
+.contrast:hover{
+  color: rgb(91, 132, 132);
+  text-decoration: underline;
+}
 
 .box:hover{
   color: rgb(72, 82, 82);
@@ -399,10 +402,10 @@ nav a:hover::before {
   }
 }
 
-.main-mn .box p {
-  padding: 100% 0 0 40%;
-  text-align: justify;
-}
+/*.main-mn .box p {
+  padding: 0% 0 0 29%;
+  text-align:justify;  
+}*/
 img {
   padding-top: 3%;
   width: 100%;
