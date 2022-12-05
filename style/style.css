@@ -372,9 +372,10 @@ nav a:hover::before {
   background-color: rgb(28, 192, 192);
 }*/
 
-@media only screen and (max-width: 500px) {
-  .image {
+@media only screen and (max-width: 700px) {
+  img {
      display: none;
+     display: block;
   }
 }
 
@@ -389,15 +390,12 @@ img {
 }
 
 .backimg {
-  height: 71vh;
+  height: 80vh;
   overflow: hidden;
 }
 
 
-@media only screen and (max-width:500px)
-{
-  
-}
+
 
 
 
