@@ -336,8 +336,7 @@ nav a:hover::before {
 
 .boximg:hover {
   color: rgb(72, 82, 82);
-  background-color: rgb(206, 43, 56);
-
+  background-color: rgb(220, 75, 87);
   filter: invert(100%);
 }
 
@@ -610,5 +609,41 @@ img {
 .clanek {
   width: 100%;
   height: 140px;
+}
+
+
+
+
+
+
+/*    Nová stránka 'Search'   */
+
+
+.main-mn .search-container {
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+
+.main-mn .input {
+  width: 50%;
+  padding-top:15%;
+  padding-left: 15%;
+  text-align: center;
+}
+
+.main-mn .hledejBtn {
+  width: 20%;
+  height: auto;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.main-mn .rectangle {
+  height: 200px;
+  width: 600px;
+  background-color: rgb(181, 221, 230);
 }
 
