@@ -427,6 +427,22 @@ nav a:hover::before {
 .ft-main-item {
   min-width: 3% /*200px*/;
 }
+
+@media (max-width: 400px) {
+
+  .ft-main {
+    padding: 1% 1%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;  
+    align-items: center;
+    TEXT-ALIGN: CENTER; 
+  }
+  .ft-legal-list{
+    justify-content: center;
+  }
+
+}
 @media only screen and (min-width: 29.8125rem /*477px*/) {
   .ft-main {
       justify-content: space-around;
