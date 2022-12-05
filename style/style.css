@@ -333,26 +333,29 @@ nav a:hover::before {
   overflow: hidden;
 }
 
+
 .boximg:hover {
   color: rgb(72, 82, 82);
-  background-color: rgb(154, 208, 208);
+  background-color: rgb(206, 43, 56);
+
+  filter: invert(100%);
 }
 
 .main-mn .context {
   text-align: center;
-  color: #000;
   text-decoration: none;
+  color: #000;
   position: static;
 }
-
+  
 .contrast:hover{
-  color: rgb(91, 132, 132);
-  text-decoration: underline;
+  color: rgb(2, 2, 2);
 }
 
 .box:hover{
-  color: rgb(72, 82, 82);
+  color: rgb(42, 176, 176);
   text-decoration: underline;
+  border-color: rgb(0, 0, 0);
 }
 
 
