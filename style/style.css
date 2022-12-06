@@ -303,7 +303,7 @@ nav a:hover::before {
  /* padding-top: 10%;*/
 }
 
-.box {
+.box { 
   width: 200px;
   height: 200px;
   border-radius: 100%;
@@ -325,6 +325,38 @@ nav a:hover::before {
   box-shadow: 0 3px 5px rgba(0,0,0,0.6); */
 
 }
+
+.boximg {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.boximg:hover {
+  color: rgb(72, 82, 82);
+  background-color: rgb(220, 75, 87);
+  filter: invert(100%);
+}
+
+.main-mn .context {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  position: static;
+}
+  
+.contrast:hover{
+  color: rgb(2, 2, 2);
+}
+
+.box:hover{
+  color: rgb(42, 176, 176);
+  text-decoration: underline;
+  border-color: rgb(0, 0, 0);
+}
+
 
 @media screen and (max-width: 200px){
   .box{
@@ -379,10 +411,10 @@ nav a:hover::before {
   }
 }
 
-.main-mn .box p {
-  padding: 100% 0 0 40%;
-  text-align: justify;
-}
+/*.main-mn .box p {
+  padding: 0% 0 0 29%;
+  text-align:justify;  
+}*/
 img {
   padding-top: 3%;
   width: 100%;
@@ -574,4 +606,40 @@ img {
   font-weight: normal;
 }
 
+
+
+
+
+
+
+/*    Nová stránka 'Search'   */
+
+
+.main-mn .search-container {
+  padding-left: 35%;
+  padding-right: 35%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+
+.main-mn .input {
+  width: 50%;
+  padding-top:15%;
+  padding-left: 15%;
+  text-align: center;
+}
+
+.main-mn .hledejBtn {
+  width: 20%;
+  height: auto;
+  padding-left: 15%;
+  padding-bottom: 10%;
+}
+
+.main-mn .rectangle {
+  height: 200px;
+  width: 600px;
+  background-color: rgb(181, 221, 230);
+}
 
