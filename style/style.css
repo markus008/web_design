@@ -286,9 +286,9 @@ nav a:hover::before {
   margin: 0;
   padding: 5% 15% 10% 15%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 100%;
-
+  gap: 5em;
   flex-flow: wrap;
 }
 
@@ -312,6 +312,7 @@ nav a:hover::before {
   border-style: solid;
   flex-wrap: wrap;
   column-gap: 10px;
+
 
 
   /* background-color:#ffffff;
@@ -422,21 +423,55 @@ img {
 }
 
 .backimg {
-  height: 71vh;
+  max-height: 71vh;
   overflow: hidden;
 }
 
 
-@media only screen and (max-width:500px)
+@media screen and (max-device-width:800px)
 {
-
+  .main-mn .backimg img
+  {
+    display: none;
+  }
 }
 
+@media screen and (max-width:800px){
+  .main-mn .backimg img
+  {
+    visibility: hidden;
+  }
+}
 
+@media screen and (max-device-width:800px)
+{
+  .main-mn .backimg 
+  {
+    display: none;
+  }
+}
 
+@media screen and (max-width:800px){
+  .main-mn .backimg
+  {
+    visibility: hidden;
+  }
+}
 
+@media screen and (max-device-width:800px)
+{
+  .main-mn HR
+  {
+    display: none;
+  }
+}
 
-
+@media screen and (max-width:800px){
+  .main-mn HR
+  {
+    visibility: hidden;
+  }
+}
 
 
 
