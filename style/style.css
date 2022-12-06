@@ -328,8 +328,8 @@ nav a:hover::before {
 }
 
 .boximg {
-  height: 100%;
-  width: 100%;
+  width: 60%;
+  padding: 18% 20%;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -428,22 +428,7 @@ img {
 }
 
 
-@media screen and (max-device-width:800px)
-{
-  .main-mn .backimg img
-  {
-    display: none;
-  }
-}
-
-@media screen and (max-width:800px){
-  .main-mn .backimg img
-  {
-    visibility: hidden;
-  }
-}
-
-@media screen and (max-device-width:800px)
+@media screen and (max-width:800px)
 {
   .main-mn .backimg 
   {
@@ -451,28 +436,13 @@ img {
   }
 }
 
-@media screen and (max-width:800px){
-  .main-mn .backimg
-  {
-    visibility: hidden;
-  }
-}
-
-@media screen and (max-device-width:800px)
+@media screen and (max-width:800px)
 {
   .main-mn HR
   {
     display: none;
   }
 }
-
-@media screen and (max-width:800px){
-  .main-mn HR
-  {
-    visibility: hidden;
-  }
-}
-
 
 
 
@@ -677,5 +647,44 @@ img {
   height: 200px;
   width: 600px;
   background-color: rgb(181, 221, 230);
+}
+
+.main-mn  .breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+
+}
+
+.drobecek {
+  padding-top: 3%;
+  padding-left: 6%;
+}
+/* Display list items side by side */
+.main-mn .drobecek li {
+  display: inline;
+  font-size: 90%;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+.drobecek li+li:before {
+  padding: 8px;
+  color: rgb(255, 0, 0);
+  content: ">\00a0";
+
+}
+
+/* Add a color to all links inside the list */
+.drobecek li a {
+  color: #0275d8;
+  text-decoration: none;
+  padding-left: 5%;
+
+}
+
+/* Add a color on mouse-over */
+.drobecek li a:hover {
+  color: #08788f;
+  text-decoration: underline;
 }
 
