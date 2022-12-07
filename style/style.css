@@ -116,6 +116,9 @@ nav a:hover::before {
   }
   h1{display: none;}
   .nav-list{display: none;}
+  .lupaResponsive {
+    width: 5%;
+  }
   .logo {
     padding: 10px 0;
     height: 40px;
@@ -724,3 +727,37 @@ img {
 
 
 
+
+
+section{
+  background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png');
+  background-size: contain;
+  /*
+width: 100vw;
+
+   */
+  height: auto;
+}
+.two-column-wrapper{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
+ 
+@media screen and (min-width: 700px){
+  .two-column-wrapper{
+    padding: 30px;
+    max-width: 780px;
+    margin: auto;}
+
+    > div{
+      flex: 1;
+      margin: 10px;}
+}
+.text{
+  margin-bottom: 20px}
+  
+@media screen and (min-width: 700px){
+  .text{
+    margin-bottom: 0}}
+    
