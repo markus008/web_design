@@ -733,7 +733,10 @@ img {
 section{
   background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png');
   background-size: contain;
-  width: 100vw;
+  /*
+width: 100vw;
+
+   */
   height: auto;
 }
 .two-column-wrapper{
