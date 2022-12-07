@@ -61,7 +61,7 @@ nav ul {
 
 nav li {
   display: inline-block;
-  margin-left: 70px;
+  margin-left: 50px;
   padding-top: 23px;
 
   position: relative;
@@ -761,3 +761,7 @@ width: 100vw;
   .text{
     margin-bottom: 0}}
     
+
+h4{
+  font-size: 25px;
+}
