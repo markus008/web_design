@@ -693,9 +693,9 @@ img {
 }
 
 .infoSearch {
+  padding-top: 2%;
   width: 80%;
   min-height: 800px;
-  padding-left: 30%;
 }
 
 .clankySearch {
@@ -710,7 +710,6 @@ img {
 @media (min-width: 1215px) {
    .clankySearch{
     width: 50%;
-    float: left;
   }
 }
 
