@@ -695,11 +695,17 @@ img {
   text-decoration: underline;
 }
 
+.main-mn .search-container .rectangle .input {
+ 
+
+}
+/*
 .infoSearch {
   padding-top: 2%;
-  width: 80%;
+  width: 63%;
   min-height: 800px;
 }
+*/
 
 .clankySearch {
   height: 100%;
@@ -710,11 +716,8 @@ img {
   padding-top: 1rem;
 
 }
-@media (min-width: 1215px) {
-   .clankySearch{
-    width: 50%;
-  }
-}
+
+
 
 .clankySearch header {
   width: 100%;
