@@ -630,6 +630,21 @@ img {
 
 /*    Clanek   */
 
+@media only screen and (min-width: 870px) {
+
+  .kontejner {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .kontejner {
+    max-width: 1050px;
+    width: 90%;
+    margin: auto;
+  }
+}
 .datum {
   text-align: right;
   width: 98%;
@@ -666,6 +681,7 @@ img {
 .obsah {
   width: 80%;
   min-height: 800px;
+  padding-top: 60px;
 
 }
 
