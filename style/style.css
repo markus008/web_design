@@ -659,14 +659,13 @@ img {
   margin-top: 0px;
   text-align:justify;
   font-weight: normal;
-  min-height: 800px;
+  min-height: 600px;
 }
 .clanek {
   height: 100%;
   width: 100%;
   float: none;
   display: table;
-  background-color: #e5e5e5;
 
 
 }
@@ -682,7 +681,10 @@ img {
 
 .obsah {
   width: 80%;
-  min-height: 800px;
+  height: 100%;
+  border-top-right-radius: 30PX;
+  border-top-left-radius: 30px;
+  background-color: #e5e5e5;
 
 }
 /*
