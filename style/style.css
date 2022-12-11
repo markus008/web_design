@@ -1011,7 +1011,7 @@ row:before,row:after {
 
 .column {
   float: left;
-  width: 33.3%;
+  width: 32%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
@@ -1057,13 +1057,19 @@ row:before,row:after {
   background-color: #555;
 }
 .imgEmploy{
-  width: 60%;
+  width: 42%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .imgEmploy2{
   width: 41%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.imgEmploy3{
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
