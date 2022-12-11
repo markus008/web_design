@@ -577,8 +577,13 @@ img {
   width: 80%;
   min-height: 800px;
   background: #e5e5e5;
-  border-top-right-radius: 30PX;
-  border-top-left-radius: 30px;
+}
+
+@media (min-width: 870px) {
+  .information {
+    border-top-right-radius: 30PX;
+    border-top-left-radius: 30px;
+  }
 }
 
 .clanky {
@@ -689,11 +694,16 @@ img {
 .obsah {
   width: 80%;
   height: 100%;
-  border-top-right-radius: 30PX;
-  border-top-left-radius: 30px;
   background-color: #e5e5e5;
 
 }
+@media (min-width: 870px) {
+  .obsah {
+    border-top-right-radius: 30PX;
+    border-top-left-radius: 30px;
+  }
+}
+
 /*
 
 @media (min-width: 870px) {
