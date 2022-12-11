@@ -274,20 +274,6 @@ nav a:hover::before {
   display: none;
 }
 }
-/*Header mobile*/
-@media (max-width: 400px) {
-
-  nav li {
-    display:flex;
-    margin-left: 70px;
-    position: relative;
-  }
-  .logo{
-    display: flex;
-  }
-
-}
-
 /*Middle*/
 .content {
   max-width: 100%;
