@@ -750,10 +750,6 @@ section{
         padding: 30px;
         max-width: 780px;
         margin: auto;}
-
-    > div{
-        flex: 1;
-        margin: 10px;}
 }
 .text{
     margin-bottom: 20px}
