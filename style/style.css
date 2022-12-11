@@ -17,8 +17,6 @@ body {
 	font-weight: 800;
 }
 
-
-
 /*HEADER*/
 @media only screen and (min-width: 870px) {
 h1{
@@ -290,8 +288,6 @@ nav a:hover::before {
 
 }
 
-
-
 /*Middle*/
 .content {
   max-width: 100%;
@@ -309,10 +305,6 @@ nav a:hover::before {
     font-weight: bold;
     line-height: 1.2;
 
-}
-
-.main-mn .image {
- /* padding-top: 10%;*/
 }
 
 .box { 
@@ -684,15 +676,6 @@ img {
 
 
 }
-@media (min-width: 1215px) {
-  .clanek{
-    /*
-    float: none;
-    width: 80%;
-
-     */
-  }
-}
 
 .obsah {
   width: 80%;
@@ -808,15 +791,6 @@ img {
   text-decoration: underline;
 }
 
-
-/*
-.infoSearch {
-  padding-top: 2%;
-  width: 63%;
-  min-height: 800px;
-}
-*/
-
 .clankySearch {
   height: 100%;
   width: 100%;
@@ -827,8 +801,6 @@ img {
 
 }
 
-
-
 .clankySearch header {
   width: 100%;
   min-height: 20%;
@@ -837,18 +809,9 @@ img {
   padding: 1rem;
   margin: 0;
 }
-
-
-
-
-
 section{
   background-image: url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png');
   background-size: contain;
-  /*
-width: 100vw;
-
-   */
   height: auto;
 }
 .two-column-wrapper{
@@ -875,14 +838,8 @@ h4{
   font-size: 25px;
 }
 
-
-
-
-
 /*  Kontakt */
-
 .containerContact{
-  /*width: 50%;*/
   background: rgb(201, 208, 240);
   border-radius: 50px;
   padding: 5% 5% 5% 5%;
@@ -1016,9 +973,6 @@ h4{
  }
 }
 
-
-
-
 /*    Zaměstnanci */
 h4{
   font-size: 25px;
@@ -1038,8 +992,6 @@ row:before,row:after {
   display: block;
 }
 
-
-
 @media screen and (min-width: 1419px) {
   .column {
     float: left;
@@ -1050,7 +1002,6 @@ row:before,row:after {
 
 }
 
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
@@ -1059,8 +1010,6 @@ row:before,row:after {
   min-height: 420px;
 
 }
-
-
 
 .container {
   padding: 0 16px;
@@ -1111,8 +1060,6 @@ row:before,row:after {
 }
 
 .row, .row:before, .row:after { box-sizing: inherit; }
-
-
 
 hr { width: 60%; size: 1%; color: grey noshade;}
 
