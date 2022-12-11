@@ -698,17 +698,21 @@ img {
 */
 
 /*    Nová stránka 'Search'   */
-
-
-.main-mn .search-container {
-  padding-left: 35%;
-  padding-right: 35%;
-  padding-top: 8%;
-  padding-bottom: 8%;
-  justify-content: center;
+.main-mn div.input label {
+  
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
 }
 
+.main-mn div.input input[type=text]{
+  padding-top: 2%;
+  padding-bottom:2%;
+}
 
+.search-container {
+  text-align: center;
+}
 
 .main-mn .input {
   width: 75%;
@@ -729,18 +733,41 @@ img {
   resize: none;
 }
 
+body > main > div > div > form > div.hledejBtn > button 
+ {
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.main-mn .button
+{
+  color: #fff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #3e2093;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
 .main-mn .hledejBtn {
-  width: 20%;
-  height: auto;
-  padding-left: 42%;
-  padding-top: 9%;
+  padding-top: 7%;
   padding-bottom: 10%;
 }
 
 .main-mn .rectangle {
   height: 20%;
   width: 100%;
-  background-color: rgb(218, 228, 233);
+  background-color: rgb(201, 208, 240);
   border-color: #0275d8;
 
 }
@@ -881,7 +908,6 @@ h4{
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  position: relative;
 }
 .contentContact .levaStrana::before{
   content: '';
@@ -927,8 +953,8 @@ h4{
 }
 .prava-strana .input-box input,
 .prava-strana .input-box textarea{
-  height: 100%;
-  width: 100%;
+  height: 80%;
+  width: 70%;
   border: none;
   outline: none;
   font-size: 16px;
@@ -958,6 +984,7 @@ h4{
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .button-kontakt input[type="button"]:hover{
   background: #5029bc;
 }
@@ -965,7 +992,7 @@ h4{
 @media (max-width: 950px) {
   .containerContact{
     width: 90%;
-    padding: 30px 40px 40px 35px ;
+    padding: 30px 0px 40px 35px ;
   }
   .containerContact .contentContact .prava-strana{
    width: 75%;
@@ -980,6 +1007,7 @@ h4{
   .containerContact .contentContact{
     flex-direction: column-reverse;
   }
+  
  .containerContact .contentContact .levaStrana{
    width: 100%;
    flex-direction: row;
