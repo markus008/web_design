@@ -681,18 +681,17 @@ img {
 .obsah {
   width: 80%;
   min-height: 800px;
-  padding-top: 60px;
 
 }
+/*
 
-/* nefunguje nevim proc?*/
 @media (min-width: 870px) {
   .obsah {
     padding-top: 60px;
   }
 }
 
-
+*/
 
 /*    Nová stránka 'Search'   */
 
