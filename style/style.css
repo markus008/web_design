@@ -1070,3 +1070,7 @@ row:before,row:after {
 }
 
 .row, .row:before, .row:after { box-sizing: inherit; }
+
+
+
+hr { width: 60%; size: 1%; color: grey noshade;}
