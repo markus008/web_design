@@ -11,6 +11,7 @@ body {
 }
 
 
+
 /*HEADER*/
 @media only screen and (min-width: 870px) {
 h1{
@@ -575,15 +576,26 @@ img {
   width: 100%;
   float: none;
   display: table;
-  background-color: beige;
+  background: #e5e5e5;
   padding-top: 1rem;
 
 }
+
 @media (min-width: 1215px) {
    .clanky{
     float: left;
     width: 50%;
   }
+}
+
+.clanky a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.clanky a:visited {
+  text-decoration: none;
+  color: black;
 }
 .clanky ul {
   padding-left: 0;
@@ -616,9 +628,53 @@ img {
   font-weight: normal;
 }
 
+/*    Clanek   */
+
+.datum {
+  text-align: right;
+  width: 98%;
+  padding-top: 1rem;
+}
+
+.main-clanek {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0px;
+  text-align:justify;
+  font-weight: normal;
+  min-height: 800px;
+}
+.clanek {
+  height: 100%;
+  width: 100%;
+  float: none;
+  display: table;
+  background-color: #e5e5e5;
 
 
+}
+@media (min-width: 1215px) {
+  .clanek{
+    /*
+    float: none;
+    width: 80%;
 
+     */
+  }
+}
+
+.obsah {
+  width: 80%;
+  min-height: 800px;
+
+}
+
+/* nefunguje nevim proc?*/
+@media (min-width: 870px) {
+  .obsah {
+    padding-top: 60px;
+  }
+}
 
 
 
@@ -727,7 +783,7 @@ img {
   width: 100%;
   float: none;
   display: table;
-  background-color: beige;
+  background-color: #00000017;
   padding-top: 1rem;
 
 }
