@@ -569,6 +569,9 @@ img {
 .information {
   width: 80%;
   min-height: 800px;
+  background: #e5e5e5;
+  border-radius: 30px;
+
 }
 
 .clanky {
@@ -576,7 +579,6 @@ img {
   width: 100%;
   float: none;
   display: table;
-  background: #e5e5e5;
   padding-top: 1rem;
 
 }
