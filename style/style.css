@@ -3,9 +3,16 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+
 body {
 	margin: 0;
-	background: rgb(255, 255, 255);
+	background: var(--white);
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 800;
 }
@@ -24,7 +31,7 @@ h1{
 }
 
 .main-hd {
-  background: white;
+  background: var(--white);
   position: fixed;
   top: 0;
   width: 100%;
@@ -76,7 +83,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: var(--black);
 }
 
 nav a::before {
@@ -95,7 +102,7 @@ nav a:hover::before {
   width: 100%;
 }
 .main-mn {
-  background-color:  rgb(255, 255, 255);
+  background-color:  var(--white);
 }
 
 .main-mn .flex-container {
