@@ -10,6 +10,8 @@
   --grayGrid: #737e89;
   --fialova: #3e2093;
   --red: rgb(253, 16, 16);
+  --gray444: #444;
+  --bluex:#0e2431;
 }
 
 body {
@@ -76,7 +78,7 @@ nav li {
 }
 
 nav a {
-  color: #444;
+  color: var(--gray444);
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
@@ -90,7 +92,7 @@ nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: #444;
+  background-color: var(--gray444);
 
   position: absolute;
   top: 0;
@@ -167,7 +169,7 @@ nav a:hover::before {
 
 .navbar .nav-container a {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--white);
   font-weight: 500;
   font-size: 1.2rem;
   padding: 0.7rem;
@@ -211,7 +213,7 @@ nav a:hover::before {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #0e2431;
+  background: var(--bluex);
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -253,7 +255,7 @@ nav a:hover::before {
   top: 5px;
   right: 15px;
   font-size: 1.2rem;
-  color: #0e2431;
+  color: var(--bluex);
 }
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
@@ -299,24 +301,11 @@ nav a:hover::before {
   width: 200px;
   height: 200px;
   border-radius: 100%;
-  background: rgb(255, 255, 255);
+  background: var(--white);
   border-color: rgb(75, 150, 171);
   border-style: solid;
   flex-wrap: wrap;
   column-gap: 10px;
-
-
-
-  /* background-color:#ffffff;
-  border-radius: 50%;
-  color: black;
-  margin: 5% 5%;
-  width: 25%;
-  height: 25%;
-  border-width: 4px;
-  display: inline;
-  box-shadow: 0 3px 5px rgba(0,0,0,0.6); */
-
 }
 
 .boximg {
@@ -336,7 +325,7 @@ nav a:hover::before {
 .main-mn .context {
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color: var(--black);
   position: static;
 }
   
@@ -347,7 +336,7 @@ nav a:hover::before {
 .box:hover{
   color: rgb(42, 176, 176);
   text-decoration: underline;
-  border-color: rgb(0, 0, 0);
+  border-color: var(--black);
 }
 
 
@@ -388,26 +377,12 @@ nav a:hover::before {
   font-size: large;
 }
 
-/*main flex-contact {
-  max: width 100%;
-  margin: 0;
-  padding: 0% 15% 5% 15%;
-  display: flex;
-  justify-content: space-between;
-  height: 100%;
-  background-color: rgb(28, 192, 192);
-}*/
-
 @media only screen and (max-width: 500px) {
   .image {
      display: none;
   }
 }
 
-/*.main-mn .box p {
-  padding: 0% 0 0 29%;
-  text-align:justify;  
-}*/
 img {
   padding-top: 3%;
   width: 100%;
@@ -436,10 +411,6 @@ img {
   }
 }
 
-
-
-
-
 /*Footer*/
 .ft ul {
     list-style: none;
@@ -458,11 +429,10 @@ img {
     text-decoration: underline;
 }
 .ft-title {
-    color: #fff;
+    color: var(--white);
     font-size: 1.375rem;
     padding-bottom: 0.625rem;
 }
-
 
 .ft-main {
   padding: 1% 1%;
@@ -470,12 +440,9 @@ img {
   flex-wrap: wrap;
 }
 
-
 .ft-main-item {
   min-width: 3% /*200px*/;
 }
-
-
 
 @media (max-width: 550px) {
 
@@ -526,9 +493,8 @@ img {
   margin: 0.125rem 0.625rem;
   white-space: nowrap;
 }
-/* one before the last child */
 .ft-legal-list li:nth-last-child(2) {
-  flex: 1;       /* same as flex-grow: 1; */
+  flex: 1;      
 }
 }
 @media (max-width: 350px) {
@@ -584,7 +550,7 @@ img {
 
 .clanky a:link {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 .clanky a:hover {
   text-decoration: underline;
@@ -592,7 +558,7 @@ img {
 
 .clanky a:visited {
   text-decoration: none;
-  color: black;
+  color: var(--black);
 }
 .clanky ul {
   padding-left: 0;
@@ -677,17 +643,6 @@ img {
     border-top-left-radius: 30px;
   }
 }
-
-/*
-
-@media (min-width: 870px) {
-  .obsah {
-    padding-top: 60px;
-  }
-}
-
-*/
-
 /*    Nová stránka 'Search'   */
 .main-mn div.input label {
   
@@ -726,7 +681,7 @@ img {
 
 body > main > div > div > form > div.hledejBtn > button 
  {
-  color: #fff;
+  color: var(--white);
   font-size: 14px;
   outline: none;
   border: none;
@@ -739,7 +694,7 @@ body > main > div > div > form > div.hledejBtn > button
 
 .main-mn .button
 {
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
   outline: none;
   border: none;
@@ -939,7 +894,7 @@ h4{
   margin-top: 12px;
 }
 .prava-strana .button-kontakt input[type="button"]{
-  color: #fff;
+  color: var(--white);
   font-size: 18px;
   outline: none;
   border: none;
@@ -1046,7 +1001,7 @@ row:before,row:after {
   outline: 0;
   display: inline-block;
   padding: 8px;
-  color: white;
+  color: var(--white);
   background-color: #000;
   text-align: center;
   cursor: pointer;
