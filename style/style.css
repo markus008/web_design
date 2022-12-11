@@ -1030,22 +1030,34 @@ row:before,row:after {
 }
 
 .column {
-  float: left;
-  width: 32%;
-  margin-bottom: 16px;
-  padding: 0 8px;
+
+  width: 100%;
+  display: block;
 }
 
-@media screen and (max-width: 650px) {
+
+
+@media screen and (min-width: 1419px) {
   .column {
-    width: 100%;
-    display: block;
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
   }
+
 }
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  float: none;
+  display: table;
+  min-height: 420px;
+
 }
+
+
 
 .container {
   padding: 0 16px;
@@ -1083,13 +1095,13 @@ row:before,row:after {
   margin-right: auto;
 }
 .imgEmploy2{
-  width: 41%;
+  width: 42%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .imgEmploy3{
-  width: 30%;
+  width: 42%;
   display: block;
   margin-left: auto;
   margin-right: auto;
