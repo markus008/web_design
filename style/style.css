@@ -606,6 +606,9 @@ img {
   text-decoration: none;
   color: black;
 }
+.clanky a:hover {
+  text-decoration: underline;
+}
 
 .clanky a:visited {
   text-decoration: none;
