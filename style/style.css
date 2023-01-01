@@ -175,7 +175,9 @@ nav a:hover::before {
   padding: 0.7rem;
 }
 
-
+.navbar .search-container {
+  float: right;
+}
 
 .nav-container {
   display: block;
@@ -727,7 +729,7 @@ body > main > div > div > form > div.hledejBtn > button
 
 .drobecek {
   padding-top: 4em;
-  padding-left: 6%;
+  padding-left: 10%;
 }
 
 
@@ -752,7 +754,6 @@ body > main > div > div > form > div.hledejBtn > button
 .drobecek li a {
   color: #0275d8;
   text-decoration: none;
-  padding-left: 5%;
 
 }
 
