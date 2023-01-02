@@ -119,7 +119,9 @@ nav a:hover::before {
 .xxx{
   display: block;
 }
-}/*
+}
+
+/*
 @media only screen and (max-width: 870px) {
   .navbar {
     display: block;
