@@ -170,9 +170,7 @@ h1{
   padding: 5%;
 }
 
-.main-mn h3 {
-  padding: 5%;
-}
+
 
 .main-mn flex-contact {
   display: flex ;
@@ -976,4 +974,59 @@ hr { width: 60%; size: 1%; color: grey noshade;}
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
+}
+
+/* Novinky */
+.post_card {
+  border: 1px solid black;
+  display: flex;
+  padding: 2rem;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.post_card_head {
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.post_card_body_footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  margin-top: 3rem;
+}
+.post_card_body_head p {
+  font-weight: 1;
+}
+
+@media (min-width: 500px) {
+  .post_card_body_footer {
+      margin-left: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .post_card {
+      flex-direction: row;
+  }
+
+  .post_card_head {
+      max-width: 200px;
+      margin-bottom: 0rem;
+  }
+
+  .post_card_body {
+      margin-left: 2rem;
+  }
+}
+.btn {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  border: 1px solid #3567e1;
+  background-color: #3567e1;
+  padding: 10px 35px;
+  border-radius: 15px;
+  margin-left: 10px;
 }
