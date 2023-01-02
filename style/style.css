@@ -119,7 +119,7 @@ nav a:hover::before {
 .xxx{
   display: block;
 }
-}
+}/*
 @media only screen and (max-width: 870px) {
   .navbar {
     display: block;
@@ -175,9 +175,7 @@ nav a:hover::before {
   padding: 0.7rem;
 }
 
-.navbar .search-container {
-  float: right;
-}
+
 
 .nav-container {
   display: block;
@@ -279,7 +277,7 @@ nav a:hover::before {
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
-}
+}*/
 /*Middle*/
 .content {
   max-width: 100%;
@@ -729,7 +727,7 @@ body > main > div > div > form > div.hledejBtn > button
 
 .drobecek {
   padding-top: 4em;
-  padding-left: 10%;
+  padding-left: 6%;
 }
 
 
@@ -754,6 +752,7 @@ body > main > div > div > form > div.hledejBtn > button
 .drobecek li a {
   color: #0275d8;
   text-decoration: none;
+  padding-left: 5%;
 
 }
 
